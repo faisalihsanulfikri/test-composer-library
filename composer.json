@@ -1,0 +1,19 @@
+{
+    "name": "arteam/test-composer-library",
+    "description": "A simple test composer library package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Arteam\\TestComposerLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "faisal.ihsanulfikri",
+            "email": "faisalihsanulfikri@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
